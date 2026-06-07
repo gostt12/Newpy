@@ -36,12 +36,12 @@ class Settings(BaseSettings):
     celery_result_backend: str = "redis://localhost:6379/2"
 
     # ── Telegram ─────────────────────────────────────────────────────────────
-    telegram_bot_token: SecretStr = SecretStr("")
+    telegram_bot_token: SecretStr = SecretStr("7855033465:AAEZAW5--M-FG2zHijshkizzIENbuQcAFiA")
     telegram_webhook_secret: SecretStr = SecretStr("")
     telegram_webhook_url: str = ""
 
     # ── Chapa ─────────────────────────────────────────────────────────────────
-    chapa_secret_key: SecretStr = SecretStr("")
+    chapa_secret_key: SecretStr = SecretStr("CHAPUBK_TEST-Njw0NDXhG4BzQZ6GroFkhDJsDJK3gwNr")
     chapa_public_key: str = ""
     chapa_webhook_secret: SecretStr = SecretStr("")
     chapa_base_url: str = "https://api.chapa.co/v1"
